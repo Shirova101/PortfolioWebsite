@@ -7,6 +7,7 @@ import Link from "next/link";
 
 
 const link = { url: "/contact", title: "Contact" }
+const link2 = { url: "/portfolio", title: "Portfolio" }
 
 const Homepage = () => {
   return (
@@ -36,9 +37,11 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
+            <Link href ={link2.url}>
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               View My Work
             </button>
+              </Link>
             <Link href={link.url}>
             <button className="p-4 rounded-lg ring-1 ring-black">
               Contact Me
