@@ -486,4 +486,4 @@ const PortfolioPage2 = () => {
   );
 };
 
-export default PortfolioPage;
+export default PortfolioPage2;
